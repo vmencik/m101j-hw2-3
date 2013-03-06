@@ -5,7 +5,7 @@ This is the assignment for Homework 2.3 of the [M101J](https://education.10gen.c
 This project uses the official MongoDB Scala driver [Casbah](http://api.mongodb.org/scala/casbah/current/index.html).
 
 The integration of Casbah into Play is done by the [MongoDB Salat Plugin](https://github.com/leon/play-salat) for the Play Framework.
-We don't you the ORM features of this plugin, only the connection management.
+We don't use the ORM features of this plugin, only the connection management.
 
 The Assignment
 --------------
@@ -21,7 +21,7 @@ The validation script expects the application to be running at `localhost:8082`:
 
 	> play run 8082
 	
-Then run the validation script in a different terminal. If implemented the required features correctly, the script
+Then run the validation script in a different terminal. If you implemented the required features correctly, the script
 will provide a validation code that you will need for the assignment's submission form.
 
 Side note
