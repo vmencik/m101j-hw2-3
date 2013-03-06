@@ -10,7 +10,10 @@ We don't use the ORM features of this plugin, only the connection management.
 The Assignment
 --------------
 As in the original Java + Spark version of the assignment, your task is to implement the missing data access logic
-in `UserDAO`. Look for occurences of `XXX WORK HERE` in [app/models/user.scala](app/models/user.scala).
+in `MongoUserDAO`. Look for occurences of `XXX WORK HERE` in [app/models/user.scala](app/models/user.scala).
+
+In `MongoUserDAO`, you access the [MongoCollection](http://api.mongodb.org/scala/casbah/current/api/#com.mongodb.casbah.MongoCollection)
+through the `users` private field.
 
 You still need running mongod with the data provided by the official course's page. The only difference is the blog's web application.
 
