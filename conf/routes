@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.BlogController.homePage()
+GET		/signup						controllers.BlogController.showSignup()
+POST	/signup						controllers.BlogController.processSignup()
+GET		/welcome					controllers.BlogController.welcome()
+GET		/login						controllers.BlogController.showLogin()
+POST	/login						controllers.BlogController.processLogin()
+GET		/logout						controllers.BlogController.logout()
