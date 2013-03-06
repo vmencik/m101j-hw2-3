@@ -12,6 +12,8 @@ The Assignment
 As in the original Java + Spark version of the assignment, your task is to implement the missing data access logic
 in `UserDAO`. Look for occurences of `XXX WORK HERE` in `app/models/user.scala`.
 
+You still need running mongod with the data provided by the official course's page. The only difference is the blog's web application.
+
 Running the Play application and the validation script
 ------------------------------------------------------
 After you're done with the implmentation you need to run the application and the validation script (`validate.py`) that
