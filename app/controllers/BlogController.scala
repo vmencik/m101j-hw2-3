@@ -2,10 +2,7 @@ package controllers
 
 import play.api._
 import play.api.mvc._
-import models.UserDAOComponent
-import models.SessionDAOComponent
-import models.MongoUserDAOComponent
-import models.MongoSessionDAOComponent
+import models._
 
 import play.api.data._
 import play.api.data.Forms._

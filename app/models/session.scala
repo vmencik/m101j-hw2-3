@@ -1,13 +1,14 @@
 package models
+import java.security.SecureRandom
+
+import com.mongodb.DBObject
 
 import com.mongodb.casbah.Imports._
+import com.mongodb.casbah.commons.MongoDBObject
+
 import play.api.Play.current
 import se.radley.plugin.salat._
-import com.mongodb.BasicDBObject
 import sun.misc.BASE64Encoder
-import java.security.SecureRandom
-import com.mongodb.casbah.commons.MongoDBObject
-import com.mongodb.DBObject
 
 trait SessionDAOComponent {
 

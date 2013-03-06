@@ -1,14 +1,15 @@
 package models
+import java.security.MessageDigest
+import java.security.SecureRandom
+
+import com.mongodb.DBObject
+import com.mongodb.MongoException
 
 import com.mongodb.casbah.Imports._
+
 import play.api.Play.current
 import se.radley.plugin.salat._
-import com.mongodb.DBObject
-import java.security.MessageDigest
 import sun.misc.BASE64Encoder
-import java.security.SecureRandom
-import com.mongodb.MongoException
-import com.mongodb.casbah.commons.MongoDBObject
 
 trait UserDAOComponent {
 
